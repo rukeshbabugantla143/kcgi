@@ -4,7 +4,6 @@ import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { Home } from './pages/Home';
 import { InstitutionDetail } from './pages/InstitutionDetail';
-import { AdmissionPopup } from './components/AdmissionPopup';
 import { Admissions } from './pages/Admissions';
 import { Academics } from './pages/Academics';
 import { Placements } from './pages/Placements';
@@ -103,7 +102,6 @@ const App: React.FC = () => {
           </Routes>
         </main>
         <Footer />
-        <AdmissionPopup />
       </div>
     </Router>
   );
